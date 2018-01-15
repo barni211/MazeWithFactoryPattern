@@ -1,0 +1,22 @@
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\bin\Debug\Labirynt.exe.config
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\bin\Debug\Labirynt.exe
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\bin\Debug\Labirynt.pdb
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\obj\Debug\Labirynt.frmLabirynt.resources
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\obj\Debug\Labirynt.Properties.Resources.resources
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\obj\Debug\Labirynt.csproj.GenerateResource.Cache
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\obj\Debug\Labirynt.exe
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\obj\Debug\Labirynt.pdb
+E:\.NET workspace\.NET-workspace\labirynt wyslany\Labirynt\Labirynt\obj\Debug\Labirynt.csprojResolveAssemblyReference.cache
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\bin\Debug\Labirynt.exe.config
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\obj\Debug\Labirynt.exe
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\obj\Debug\Labirynt.pdb
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\bin\Debug\Labirynt.exe
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\bin\Debug\Labirynt.pdb
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\obj\Debug\Labirynt.csprojResolveAssemblyReference.cache
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\obj\Debug\Labirynt.frmLabirynt.resources
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\obj\Debug\Labirynt.Properties.Resources.resources
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\obj\Debug\Labirynt.csproj.GenerateResource.Cache
+E:\.NET workspace\.NET-workspace\Labirynt\Labirynt\obj\Debug\Labirynt.SpellForm.resources
+E:\.NET workspace\Labirynt\Labirynt\bin\Debug\Labirynt.exe.config
+E:\.NET workspace\Labirynt\Labirynt\obj\Debug\Labirynt.exe
+E:\.NET workspace\Labirynt\Labirynt\obj\Debug\Labirynt.pdb
