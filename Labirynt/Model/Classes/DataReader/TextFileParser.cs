@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Labirynt.Model.Classes.DataReader
 {
@@ -20,14 +21,31 @@ namespace Labirynt.Model.Classes.DataReader
         {
             int counter = 1;
             fileInList = new Dictionary<int, string[]>();
+            bool firstLine = true;
+            string line;
+            string[] textObject;
+            System.IO.StreamReader file = null;
+
             if (filePath.Equals(""))
             {
                 filePath = @"E:\StandardFile.txt";
             }
-            bool firstLine = true;
-            string line;
-            string[] textObject;
-            System.IO.StreamReader file = new System.IO.StreamReader(@filePath);
+        
+            try {
+                file = new System.IO.StreamReader(@filePath);
+            }
+            catch(System.IO.FileNotFoundException)
+            {
+                MessageBox.Show("Nie ma takiego pliku.");
+                return null;
+            }
+            catch(System.IO.FileLoadException)
+            {
+                MessageBox.Show("Nie można załadować pliku.");
+                return null;
+            }
+
+
             while ((line = file.ReadLine()) != null)
             {
                 if (firstLine == true)

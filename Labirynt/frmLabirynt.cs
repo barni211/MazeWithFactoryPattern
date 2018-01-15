@@ -35,8 +35,9 @@ namespace Labirynt
         public frmLabirynt()
         {
             InitializeComponent();
-            CreateMap();
-            DrawMap();
+            //figureList = new List<Figure>();
+            //CreateMap();
+            //DrawMap();
 
         }
 
@@ -81,17 +82,26 @@ namespace Labirynt
         public void AddElements(int value)
         {
             MazeFactory factoryObject = new MazeFactory();
-            figureList.Clear();
+            if(figureList!=null)
+            {
+                figureList.Clear();
+            }
+            
             if (value==1)
             {
-                figureList = factoryObject.CreateMazeFromTextFile(@"E:\StandardFactory.txt");
+                figureList = factoryObject.CreateMazeFromTextFile(@"E:\StandardFactoryy.txt");
             }
             else if(value==2)
             {
                 figureList = factoryObject.CreateMazeFromTextFile(@"E:\MagicFactory.txt");
             }
-            CreatePlayer();
-            DrawMap();
+
+            if(figureList!=null && figureList.Count() > 0)
+            {
+                CreatePlayer();
+                DrawMap();
+            }
+            
         }
 
         
@@ -183,7 +193,7 @@ namespace Labirynt
                     continue;
                 }
 
-                //ten switch jest do porozbiania i wydzielenia w osobne metody, zeby nie zostala taka kobyla
+                //ten switch jest do porozbijania i wydzielenia w osobne metody, zeby nie zostala taka kobyla
                 switch(motion)
                 {
                     case Model.Move.Up:

@@ -15,7 +15,7 @@ namespace Labirynt.Model.Classes
         public static int KeyCounter = 0;
         private Dictionary<MazeType, Factory> mazeList;
         private Dictionary<string, MazeType> mazeTypeConverter; //mapa mazeTypeConverter powstała w celu uniknięcia switcha przy wyborze typu labiryntu
-        private List<Figure> figureList;                        //switch został w kodzie - do wyjaśnienia które rozwiązanie byłoby lepsze.
+        private List<Figure> figureList;                        
         private MazeType maze;
         private Factory factoryObject;
         public MazeFactory()
@@ -41,6 +41,11 @@ namespace Labirynt.Model.Classes
             bool isFirstLine = true;
 
             Dictionary<int, string[]> dict = parser.CreateStringDictionary(filePath);
+
+            if(dict == null)
+            {
+                return null;
+            }
 
             for (int i = 0; i< dict.Count; i++)
             {
